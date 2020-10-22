@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image:url(../images/bg_wrapper.gif);	
+}
+
+#wrapper{
+	width: 750px;
+	border: 1px solid #996600;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #fff;
+}
+
+/*ヘッダー*/
+header img{
+	width: 100%;
+	display: block;
+}
+
+/*グローバルナビ*/
+nav ul{
+	width: 200px;
+	list-style-type: none;
+	padding: 20px 10px;
+}
+
+nav ul li{
+	border: 1px solid #996600;
+	border-radius: 20px;
+	padding: 0 5px;
+	margin-bottom: 5px;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color: #996600;
+	padding: 5px;
+}
+
+nav ul li:hover{
+	border-radius: 20px;
+	background-color: #95c129;
+}
+
+/*店舗情報アイコン*/
+nav ul li .guide{
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 15px;
+	background-image:url(../images/icon_guide.gif);
+	background-repeat:no-repeat;
+	padding-left: 45px;
+}
+
+/*アクセスアイコン*/
+nav ul li .access{
+	content: "";
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 15px;
+	background-image:url(../images/icon_access.gif);
+	background-repeat:no-repeat;
+	padding-left: 45px;
+}
+
+/*お問い合わせアイコン*/
+nav ul li .contact{
+	content: "";
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 15px;
+	background-image:url(../images/icon_contact.gif);
+	background-repeat:no-repeat;
+	padding-left: 45px;
+}
+
+/*ヘッダーとフッター以外*/
+#container{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*見出し（国内生産）とコメント*/
+section{
+	margin: 10px;
+	margin-bottom: 0px;
+	width: 500px;
+}
+
+/*見出し（国内生産）*/
+h2{
+	background-image:url(../images/h2_back.png);
+	background-repeat:no-repeat;
+	padding: 10px;
+	font-size: 18px;
+	padding-left: 75px;
+	color: #fff;
+	
+}
+
+/*コメント*/
+p.comment{
+	border: 1px solid #996600;
+	border-radius: 15px;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+/*メイン画像*/
+p.mainImg{
+	margin: 30px 0;
+}
+
+/*フッター*/
+footer{
+	padding: 10px;
+	text-align: center;
+}
